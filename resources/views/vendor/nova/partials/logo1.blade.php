@@ -1,0 +1,1 @@
+<h3 class="text-center w-full">BlueKnot Admin</h3>

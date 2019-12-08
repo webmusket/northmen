@@ -1,0 +1,10 @@
+trix-editor{
+  .attachment.attachment--preview{
+    width:200px;
+    margin: 5px;
+  }
+}
+
+trix-toolbar{
+  display:none;
+}

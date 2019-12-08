@@ -1,0 +1,349 @@
+/* Medium Layout: 1440px. */
+@media only screen and (min-width: 1440px) {
+    .single-item-box {
+        width: 180px;
+    }
+}
+
+/* Medium Layout: 1600px. */
+@media only screen and (min-width: 1600px) {
+    .single-item-box {
+        width: 208px;
+    }
+}
+
+/* Medium Layout: 1600px. */
+@media only screen and (min-width: 1920px) {
+    .single-item-box {
+        width: 270px;
+        margin: 10px 10px 15px 17px;
+    }
+}
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1366px){
+    .pricevalue {
+	margin-right: 0;
+}
+    .pricevalue strong {
+	padding-right: 22px;
+}
+    .pricevalue span {
+	padding-right: 28px;
+}
+    
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {
+    .pricevalue {
+	margin-right: 0;
+}
+    .pricevalue strong {
+	padding-right: 22px;
+}
+    .pricevalue span {
+	padding-right: 28px;
+}
+    
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    .single-item-box {
+        width: 150px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+        text-align: left;
+    }
+
+    .headerlogo {
+        display: none;
+    }
+
+    .bk-home-slider.owl-carousel.owl-loaded.owl-drag {
+        display: none;
+    }
+
+    .headermenu .mainmneu ul {
+        display: none;
+    }
+
+    .headertomenu .headerlogo img {
+        margin-left: 0;
+    }
+
+    /************************************************************Footer css*************************************/
+    .email-subscription-form input[type="email"] {
+        width: 72%;
+    }
+
+    .footer-area h4 {
+        margin-top: 15px;
+    }
+
+    /************************************************************ mobile menu css *************************************/
+    .headermenu {
+        display: none;
+    }
+
+    .mobilelogo {
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .mobilelogo a {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .mobile-display {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        z-index: 9;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .mobile-display.active {
+        opacity: .7;
+        visibility: visible;
+    }
+
+    #sticky-wrapper {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mobile-shopping-icon {
+        text-align: right;
+    }
+
+    .mobile-menu-icon {
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .mobile-menu-panel {
+        position: fixed;
+        background: #2B1325;
+        width: 200px;
+        padding: 20px;
+        z-index: 2;
+        height: 100%;
+        display: block;
+        overflow: auto;
+        left: -200px;
+        z-index: 10;
+        transition: .3s;
+    }
+
+    .mobile-menu-panel-click {
+        left: 0;
+    }
+
+    .mobile-menu-panel ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mobile-menu-panel ul li {
+        padding: 6px 0;
+    }
+
+    .mobile-menu-panel ul li a {
+        font-size: 14px;
+    }
+
+    .mobile-menu-panel h4 {
+        color: #fff;
+        font-size: 19px;
+        border-bottom: 1px solid #463939;
+    }
+
+    .mobile-menu-panel h4 a {
+        color: #fff;
+    }
+
+    .mclose {
+        position: absolute;
+        right: 15px;
+        color: #fff;
+        top: 15px;
+        cursor: pointer;
+    }
+
+    .mobile-hero-image {
+        display: block;
+    }
+
+    /*mobile customization page section*/
+    .clogo {
+        margin: 0 auto;
+    }
+
+    .progress-reports-bar {
+        display: none;
+    }
+
+    .ct-preview-box {
+        margin-top: 40px;
+    }
+
+    .ct-preview-box.ct-mobile-none {
+        display: none;
+    }
+
+    .aboutsection .about-contain {
+        font-size: 20px;
+        padding: 20px;
+        margin-right: 0;
+        text-align: justify;
+    }
+
+    .iconbox-sectionpoint .shippingbox {
+        margin-bottom: 30px;
+    }
+
+    .single-product-box {
+        text-align: center;
+        border: 1px solid #ecebeb;
+    }
+
+    .single-product-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .calltoacsec {
+        padding: 40px 0;
+    }
+
+    .iconbox-sectionpoint {
+        padding: 0;
+    }
+
+
+    /* single product view css*/
+    .product-button .nsdrakbtn,
+    .product-button .nslightbtn {
+        width: 100%;
+    }
+
+    .btntextlight.livemodel {
+        display: inline-block;
+    }
+
+    /* customixation css*/
+    .customization-section {
+        padding-top: 73px;
+    }
+
+    .single-item-box {
+        width: 42%;
+        margin: 10px;
+    }
+
+    .single-content {
+        padding: 5px 5px 2px 8px;
+    }
+
+    .customization-icon-box {
+        bottom: -50px;
+    }
+
+    .customization-icon-box ul li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .pricevalue {
+        margin-right: 0;
+        text-align: left;
+    }
+    .pricevalue strong {
+	padding-right: 30px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+    .change-box {
+        float: none;
+        width: 100%;
+        text-align: left;
+        font-size: 13PX;
+    }
+    
+
+    /*    Footer css*/
+    .mobile-none {
+        display: none;
+    }
+
+    .bigpc-none {
+        display: block;
+    }
+
+/*
+    .mobile-footer {
+        background: #2B1325;
+        padding: 16px 0 1px 0;
+    }
+*/
+
+    .footeracrodion > a {
+        display: block;
+        position: relative;
+    }
+
+    .footeracrodion > a:after {
+        content: "\f067";
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 0;
+    }
+
+    .footeracrodion > a[aria-expanded="true"]:after {
+        content: "\f068";
+    }
+    
+    .livemdel-slider .owl-dots button {
+    background: #AB8D48;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0px 10px;
+    transition: .3s;
+}
+
+.livemdel-slider .owl-dots {
+    text-align: center;
+}
+
+.livemdel-slider .owl-dots button.active {
+    background: #947e73;
+    width: 15px;
+}
+
+}

@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "build-report": "cd nova-components/Report && npm run dev",
+        "build-report-prod": "cd nova-components/Report && npm run prod",
+        "build-super-product": "cd nova-components/SuperProduct && npm run dev",
+        "build-super-product-prod": "cd nova-components/SuperProduct && npm run prod",
+        "build-file-manager": "cd nova-components/FileManager && npm run dev",
+        "build-file-manager-prod": "cd nova-components/FileManager && npm run prod",
+        "build-super-discount": "cd nova-components/SuperDiscount && npm run dev",
+        "build-super-discount-prod": "cd nova-components/SuperDiscount && npm run prod",
+        "build-super-customization": "cd nova-components/SuperCustomization && npm run dev",
+        "build-super-customization-prod": "cd nova-components/SuperCustomization && npm run prod",
+        "build-order-management": "cd nova-components/OrderManagement && npm run dev",
+        "build-order-management-prod": "cd nova-components/OrderManagement && npm run prod",
+        "build-menu-builder": "cd nova-components/MenuBuilder && npm run dev",
+        "build-menu-builder-prod": "cd nova-components/MenuBuilder && npm run prod"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.0.0",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "laravel-vue-pagination": "^2.3.1",
+        "vue-loading-overlay": "^3.2.0",
+        "vue-multiselect": "^2.1.6",
+        "vue-resource": "^1.5.1"
+    }
+}
